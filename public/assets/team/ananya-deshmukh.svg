@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A2420"/>
+      <stop offset="100%" stop-color="#171412"/>
+    </linearGradient>
+    <linearGradient id="skin1" x1="150" y1="90" x2="250" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DFAA82"/>
+      <stop offset="100%" stop-color="#B97E56"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg1)"/>
+  <circle cx="200" cy="185" r="130" fill="#C8965E" fill-opacity="0.08"/>
+  <!-- Architectural Grid Accent -->
+  <line x1="48" y1="0" x2="48" y2="400" stroke="#9A6B3E" stroke-opacity="0.2"/>
+  <line x1="352" y1="0" x2="352" y2="400" stroke="#9A6B3E" stroke-opacity="0.2"/>
+  <!-- Blazer & Silk Top -->
+  <path d="M68 400C78 302 128 264 200 264C272 264 322 302 332 400H68Z" fill="#EDE6DC"/>
+  <path d="M158 264L200 342L242 264H158Z" fill="#9A6B3E"/>
+  <!-- Neck & Face -->
+  <rect x="178" y="212" width="44" height="62" rx="20" fill="url(#skin1)"/>
+  <path d="M134 150C134 96 162 72 200 72C238 72 266 96 266 150V196C266 232 236 254 200 254C164 254 134 232 134 196V150Z" fill="#1C1816"/>
+  <path d="M148 156C148 114 170 92 200 92C230 92 252 114 252 156V188C252 222 228 248 200 248C172 248 148 222 148 188V156Z" fill="url(#skin1)"/>
+  <!-- Hair Waves -->
+  <path d="M142 156C148 116 178 96 218 102C242 106 254 128 256 156C240 132 218 122 192 122C168 122 152 136 142 156Z" fill="#1C1816"/>
+  <!-- Features -->
+  <path d="M168 152C176 147 186 147 192 151" stroke="#241D1A" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M208 151C214 147 224 147 232 152" stroke="#241D1A" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="180" cy="164" r="4.2" fill="#241D1A"/>
+  <circle cx="220" cy="164" r="4.2" fill="#241D1A"/>
+  <circle cx="200" cy="146" r="2.2" fill="#9A6B3E"/>
+  <path d="M200 164V192C200 195 196 197 193 196" stroke="#99633F" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M185 212C194 219 206 219 215 212" stroke="#8C4A3B" stroke-width="3" stroke-linecap="round"/>
+  <!-- Brass Drop Earrings -->
+  <circle cx="144" cy="196" r="4" fill="#D4A36A"/>
+  <circle cx="256" cy="196" r="4" fill="#D4A36A"/>
+</svg>

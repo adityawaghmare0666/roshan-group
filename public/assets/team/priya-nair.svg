@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#25211E"/>
+      <stop offset="100%" stop-color="#141210"/>
+    </linearGradient>
+    <linearGradient id="skin3" x1="150" y1="90" x2="250" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CF966E"/>
+      <stop offset="100%" stop-color="#A66B46"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg3)"/>
+  <circle cx="200" cy="185" r="130" fill="#D4A36A" fill-opacity="0.08"/>
+  <path d="M68 400C78 302 128 264 200 264C272 264 322 302 332 400H68Z" fill="#312923"/>
+  <path d="M162 264L200 338L238 264H162Z" fill="#F3ECE3"/>
+  <rect x="178" y="212" width="44" height="62" rx="20" fill="url(#skin3)"/>
+  <path d="M132 154C132 98 162 74 200 74C238 74 268 98 268 154V208C268 238 240 260 200 260C160 260 132 238 132 208V154Z" fill="#181513"/>
+  <path d="M148 156C148 114 170 92 200 92C230 92 252 114 252 156V188C252 222 228 248 200 248C172 248 148 222 148 188V156Z" fill="url(#skin3)"/>
+  <path d="M144 150C152 114 178 96 204 96C232 96 250 116 254 150C236 128 216 120 196 120C172 120 156 132 144 150Z" fill="#181513"/>
+  <path d="M168 152C176 147 186 147 192 151" stroke="#1E1B18" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M208 151C214 147 224 147 232 152" stroke="#1E1B18" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="180" cy="164" r="4.2" fill="#1E1B18"/>
+  <circle cx="220" cy="164" r="4.2" fill="#1E1B18"/>
+  <path d="M200 164V192C200 195 196 197 193 196" stroke="#855132" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M185 212C194 219 206 219 215 212" stroke="#824034" stroke-width="3" stroke-linecap="round"/>
+</svg>

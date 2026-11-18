@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#292420"/>
+      <stop offset="60%" stop-color="#1C1815"/>
+      <stop offset="100%" stop-color="#12100E"/>
+    </linearGradient>
+    <linearGradient id="coveGlow" x1="0" y1="120" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F6D198" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#D4A36A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="quartzIsland" x1="160" y1="360" x2="680" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EDE7DF"/>
+      <stop offset="50%" stop-color="#DCD3C7"/>
+      <stop offset="100%" stop-color="#BFB3A4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#wallGrad)"/>
+  <!-- Fluted Walnut Cabinetry Wall -->
+  <g stroke="#3F3227" stroke-width="2">
+    <rect x="64" y="80" width="220" height="360" fill="#261D17"/>
+    <line x1="90" y1="80" x2="90" y2="440"/>
+    <line x1="116" y1="80" x2="116" y2="440"/>
+    <line x1="142" y1="80" x2="142" y2="440"/>
+    <line x1="168" y1="80" x2="168" y2="440"/>
+    <line x1="194" y1="80" x2="194" y2="440"/>
+    <line x1="220" y1="80" x2="220" y2="440"/>
+    <line x1="246" y1="80" x2="246" y2="440"/>
+  </g>
+  <!-- Backlit Calacatta Marble Backsplash -->
+  <rect x="304" y="130" width="432" height="230" fill="#F4EFE8" stroke="#9A6B3E" stroke-width="1.5"/>
+  <rect x="304" y="130" width="432" height="120" fill="url(#coveGlow)"/>
+  <path d="M320 160C380 185 410 240 480 260C550 280 610 210 720 250" stroke="#C8BEB0" stroke-width="2" fill="none"/>
+  <path d="M360 310C430 280 510 320 640 290" stroke="#D5CBBF" stroke-width="1.5" fill="none"/>
+  <!-- Designer Brass Pendant Lights -->
+  <line x1="430" y1="0" x2="430" y2="195" stroke="#D4A36A" stroke-width="2"/>
+  <circle cx="430" cy="205" r="14" fill="#F9E0AE"/>
+  <line x1="570" y1="0" x2="570" y2="175" stroke="#D4A36A" stroke-width="2"/>
+  <circle cx="570" cy="185" r="14" fill="#F9E0AE"/>
+  <!-- Waterfall Quartzite Culinary Island -->
+  <rect x="190" y="360" width="546" height="165" fill="url(#quartzIsland)"/>
+  <rect x="210" y="382" width="506" height="143" fill="#211C19"/>
+  <line x1="378" y1="382" x2="378" y2="525" stroke="#9A6B3E" stroke-width="1"/>
+  <line x1="546" y1="382" x2="546" y2="525" stroke="#9A6B3E" stroke-width="1"/>
+  <!-- Floor Terrazzo Perspective -->
+  <rect x="0" y="525" width="800" height="75" fill="#181513"/>
+  <line x1="0" y1="525" x2="800" y2="525" stroke="#9A6B3E" stroke-opacity="0.5"/>
+</svg>

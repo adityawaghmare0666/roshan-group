@@ -1,0 +1,6 @@
+{
+  "name": "Roshan Group — Interior Design & Bespoke Decor Studio",
+  "description": "Official website for Roshan Group, Mumbai's premier interior design studio at Uni Design House, Andheri East. Specializing in custom wallpaper decor, architectural designs, bathrooms and kitchens, and turnkey home refurbishment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

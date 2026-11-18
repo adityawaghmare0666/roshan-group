@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" fill="none">
+  <defs>
+    <linearGradient id="bgStudio" x1="0" y1="0" x2="640" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#221D1A"/>
+      <stop offset="55%" stop-color="#171412"/>
+      <stop offset="100%" stop-color="#0E0C0B"/>
+    </linearGradient>
+    <radialGradient id="keyLight" cx="65%" cy="28%" r="60%">
+      <stop offset="0%" stop-color="#D4A36A" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#9A6B3E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#171412" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skinTone" x1="260" y1="180" x2="390" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D89E74"/>
+      <stop offset="55%" stop-color="#BE8158"/>
+      <stop offset="100%" stop-color="#97613E"/>
+    </linearGradient>
+    <linearGradient id="suitJacket" x1="120" y1="470" x2="520" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2B2623"/>
+      <stop offset="50%" stop-color="#1E1A18"/>
+      <stop offset="100%" stop-color="#12100E"/>
+    </linearGradient>
+    <linearGradient id="brassAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E5C185"/>
+      <stop offset="100%" stop-color="#9A6B3E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Studio Architectural Backdrop -->
+  <rect width="640" height="800" fill="url(#bgStudio)"/>
+  <rect width="640" height="800" fill="url(#keyLight)"/>
+
+  <!-- Subtle Fluted Walnut & Brass Architectural Lines in Studio Background -->
+  <g opacity="0.22" stroke="#9A6B3E" stroke-width="1.2">
+    <line x1="72" y1="0" x2="72" y2="800"/>
+    <line x1="104" y1="0" x2="104" y2="800"/>
+    <line x1="136" y1="0" x2="136" y2="800"/>
+    <line x1="168" y1="0" x2="168" y2="800"/>
+    <rect x="440" y="64" width="140" height="220" stroke="url(#brassAccent)" stroke-width="1.5"/>
+    <rect x="462" y="88" width="96" height="172" stroke="#D4A36A" stroke-width="0.8" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Soft Rim Halo -->
+  <circle cx="320" cy="310" r="195" fill="#C8965E" fill-opacity="0.07"/>
+
+  <!-- Shoulders & Bespoke Nehru-Collar Architectural Blazer -->
+  <path d="M92 800C102 612 184 516 320 516C456 516 538 612 548 800H92Z" fill="url(#suitJacket)"/>
+  <!-- Linen Shirt & Inner Collar -->
+  <path d="M262 505L320 628L378 505L350 486H290L262 505Z" fill="#EFEAE2"/>
+  <!-- Tailored Lapel Lines -->
+  <path d="M248 520L306 675L320 628" stroke="#3D3530" stroke-width="3"/>
+  <path d="M392 520L334 675L320 628" stroke="#3D3530" stroke-width="3"/>
+  <!-- Brass Pocket Square & Lapel Pin -->
+  <path d="M402 628L438 614L446 634H402V628Z" fill="url(#brassAccent)"/>
+  <circle cx="262" cy="585" r="4.5" fill="url(#brassAccent)"/>
+
+  <!-- Neck & Shadow -->
+  <rect x="282" y="405" width="76" height="106" rx="34" fill="url(#skinTone)"/>
+  <path d="M282 425C302 448 338 448 358 425V462C335 478 305 478 282 462V425Z" fill="#7D4D2F" fill-opacity="0.45"/>
+
+  <!-- Ears -->
+  <rect x="208" y="286" width="24" height="54" rx="12" fill="#B67850"/>
+  <rect x="408" y="286" width="24" height="54" rx="12" fill="#A56943"/>
+
+  <!-- Head Structure -->
+  <path d="M222 254C222 186 264 148 320 148C376 148 418 186 418 254V326C418 392 374 442 320 442C266 442 222 392 222 326V254Z" fill="url(#skinTone)"/>
+
+  <!-- Hair (Salt & Pepper Sculpted Side-Part) -->
+  <path d="M216 268C210 212 240 132 322 132C394 132 428 192 424 266C416 232 398 202 364 192C334 184 282 186 248 206C230 216 222 242 216 268Z" fill="#1C1917"/>
+  <path d="M244 176C276 154 338 150 382 174" stroke="#68625E" stroke-width="3" stroke-linecap="round" opacity="0.65"/>
+  <path d="M232 204C254 190 290 184 328 186" stroke="#8C8580" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Eyebrows -->
+  <path d="M254 268C268 260 288 260 302 266" stroke="#1E1B18" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M338 266C352 260 372 260 386 268" stroke="#1E1B18" stroke-width="5.5" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="278" cy="288" rx="13" ry="7.5" fill="#FBF9F6"/>
+  <circle cx="279" cy="288" r="6" fill="#2B1D14"/>
+  <circle cx="281" cy="286" r="2" fill="#FFFFFF"/>
+
+  <ellipse cx="362" cy="288" rx="13" ry="7.5" fill="#FBF9F6"/>
+  <circle cx="361" cy="288" r="6" fill="#2B1D14"/>
+  <circle cx="363" cy="286" r="2" fill="#FFFFFF"/>
+
+  <!-- Designer Acetate & Brushed Brass Eyeglasses -->
+  <rect x="246" y="270" width="64" height="40" rx="10" stroke="url(#brassAccent)" stroke-width="3.2" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="330" y="270" width="64" height="40" rx="10" stroke="url(#brassAccent)" stroke-width="3.2" fill="#FFFFFF" fill-opacity="0.04"/>
+  <path d="M310 286H330" stroke="url(#brassAccent)" stroke-width="3"/>
+  <path d="M222 284L246 282" stroke="url(#brassAccent)" stroke-width="2.5"/>
+  <path d="M394 282L418 284" stroke="url(#brassAccent)" stroke-width="2.5"/>
+
+  <!-- Nose Bridge & Contour -->
+  <path d="M320 284V338C320 344 312 348 306 346" stroke="#8C5636" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M308 346C315 351 325 351 332 346" stroke="#8C5636" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Tailored Beard & Mustache (Salt & Pepper) -->
+  <path d="M224 334C226 392 266 442 320 442C374 442 414 392 416 334C406 356 392 374 370 382C354 366 338 360 320 360C302 360 286 366 270 382C248 374 234 356 224 334Z" fill="#231F1D" fill-opacity="0.92"/>
+  <!-- Confident Warm Smile -->
+  <path d="M294 378C308 388 332 388 346 378" stroke="#F4EDE4" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M298 394C310 400 330 400 342 394" stroke="#6B5E58" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Bottom Editorial Caption Frame -->
+  <rect x="24" y="724" width="592" height="52" rx="6" fill="#141210" fill-opacity="0.82" stroke="#9A6B3E" stroke-opacity="0.35"/>
+  <text x="44" y="747" fill="#F5F0E6" font-family="Georgia, serif" font-size="15" font-weight="600" letter-spacing="0.04em">ROSHAN SHARMA</text>
+  <text x="44" y="764" fill="#C5B8A5" font-family="sans-serif" font-size="11" letter-spacing="0.08em">PRINCIPAL INTERIOR DESIGNER &amp; FOUNDER · UNI DESIGN HOUSE, MUMBAI</text>
+</svg>

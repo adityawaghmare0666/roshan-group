@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="archBg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E2226"/>
+      <stop offset="100%" stop-color="#111316"/>
+    </linearGradient>
+    <linearGradient id="warmSlot" x1="0" y1="60" x2="800" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4A36A" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#F6D198" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#D4A36A" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#archBg)"/>
+  <!-- Linear Architectural Ceiling Baffles -->
+  <rect x="80" y="54" width="640" height="6" fill="url(#warmSlot)"/>
+  <rect x="120" y="88" width="560" height="4" fill="url(#warmSlot)"/>
+  <!-- Crittall Bronze & Acoustic Glass Partitions -->
+  <rect x="90" y="130" width="620" height="360" stroke="#9A6B3E" stroke-width="2.5" fill="#181C20" fill-opacity="0.7"/>
+  <line x1="245" y1="130" x2="245" y2="490" stroke="#9A6B3E" stroke-width="2"/>
+  <line x1="400" y1="130" x2="400" y2="490" stroke="#9A6B3E" stroke-width="2"/>
+  <line x1="555" y1="130" x2="555" y2="490" stroke="#9A6B3E" stroke-width="2"/>
+  <line x1="90" y1="265" x2="710" y2="265" stroke="#9A6B3E" stroke-width="1.5"/>
+  <!-- Bespoke Conference Table & Sculptural Credenza -->
+  <path d="M220 420H580L630 475H170L220 420Z" fill="#463224" stroke="#D4A36A" stroke-width="1.2"/>
+  <rect x="275" y="475" width="16" height="55" fill="#2A1E17"/>
+  <rect x="509" y="475" width="16" height="55" fill="#2A1E17"/>
+  <!-- Geometric Brass Wall Sculpture -->
+  <circle cx="400" cy="200" r="38" stroke="#D4A36A" stroke-width="2" fill="#D4A36A" fill-opacity="0.12"/>
+  <rect x="372" y="172" width="56" height="56" stroke="#F6D198" stroke-width="1.2"/>
+  <rect x="0" y="490" width="800" height="110" fill="#141619"/>
+</svg>

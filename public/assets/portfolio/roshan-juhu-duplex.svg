@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="juhuBg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D2621"/>
+      <stop offset="100%" stop-color="#191512"/>
+    </linearGradient>
+    <linearGradient id="archNiches" x1="0" y1="120" x2="0" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E7C288" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#9A6B3E" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#juhuBg)"/>
+  <!-- Twin Travertine Arched Wall Niches with Warm Grazing Light -->
+  <path d="M130 460V230C130 175 175 130 230 130C285 130 330 175 330 230V460H130Z" fill="url(#archNiches)" stroke="#D4A36A" stroke-width="1.8"/>
+  <path d="M470 460V230C470 175 515 130 570 130C625 130 670 175 670 230V460H470Z" fill="url(#archNiches)" stroke="#D4A36A" stroke-width="1.8"/>
+  <!-- Custom Boucle Low-Profile Sofa -->
+  <rect x="175" y="385" width="450" height="75" rx="22" fill="#EAE2D6"/>
+  <rect x="145" y="410" width="45" height="68" rx="14" fill="#DCD2C4"/>
+  <rect x="610" y="410" width="45" height="68" rx="14" fill="#DCD2C4"/>
+  <rect x="160" y="445" width="480" height="36" rx="10" fill="#CFC3B2"/>
+  <!-- Smoked Oak & Brass Coffee Table -->
+  <ellipse cx="400" cy="512" rx="145" ry="24" fill="#3B2B20" stroke="#D4A36A" stroke-width="1.5"/>
+  <rect x="0" y="480" width="800" height="120" fill="#171311" fill-opacity="0.45"/>
+</svg>
